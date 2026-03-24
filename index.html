@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>NAS 檔案下載中心</title>
+    <style>
+        body { font-family: sans-serif; padding: 50px; text-align: center; }
+        .download-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .download-btn:hover { background-color: #0056b3; }
+    </style>
+</head>
+<body>  
+    <form action="download.php" method="GET">
+        <input type="hidden" name="file" value="robot_code_v1.zip">
+        <button type="submit" class="download-btn">立即下載檔案包</button>
+    </form>
+</body>
+</html>
