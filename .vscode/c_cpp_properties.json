@@ -3,30 +3,28 @@
         {
             "name": "Win32",
             "includePath": [
-                "c:/Users/PC/Documents/ftc2026/7632cad/nasjs/**"
+                "${workspaceRoot}",
+                "C:\\MinGW\\include",
+                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "__GNUC__=5",
+                "__cdecl=__attribute__((__cdecl__))"
             ],
-            "compilerPathInCppPropertiesJson": "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/xxx/bin/Hostx64/x64/cl.exe",
-            "mergeConfigurations": false,
-            "recursiveIncludes": {},
+            "intelliSenseMode": "gcc-x64",
             "browse": {
-                "limitSymbolsToIncludedHeaders": true
+                "path": [
+                    "${workspaceRoot}",
+                    "C:\\MinGW\\include",
+                    "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+                    "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
             }
-        },
-        {
-            "name": "j",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
-            ]
         }
     ],
     "version": 4
